@@ -36,25 +36,24 @@ function Hero() {
       />
 
       {/* Main Content */}
-      <div className="relative z-10 text-center max-w-7xl mt-4">
-        {/* Title */}
-        <h1 className="font-clash font-bold text-[clamp(5rem,15vw,18rem)] leading-[0.9] tracking-super-tight uppercase mb-8">
-          <span className="text-gradient">CLARENCE</span>
-          <br />
-          <span className="text-outline">DUGAIN</span>
-        </h1>
-
-        {/* Subtitle */}
-        <p className="text-xl md:text-2xl text-cream-muted font-light tracking-wider max-w-2xl mx-auto mb-16">
-          Java/Spring • TypeScript • React • PostGres • Docker • Flutter
-        </p>
-
-        {/* Subtext */}
-        <p className="text-lg text-cream-dark mb-20">
-          Diplômé Concepteur Développeur d'Applications • RNCP 6 • AFPA Brest
-          2026
-        </p>
-      </div>
+           <div className="relative z-10 text-center max-w-7xl mt-4 w-full">
+             
+             {/* Title - Optimisé mobile */}
+             <h1 className="font-clash font-bold text-[clamp(3rem,12vw,18rem)] leading-[0.9] tracking-tight md:tracking-super-tight uppercase mb-8 px-4">
+               <span className="text-gradient block">CLARENCE</span>
+               <span className="text-outline block">DUGAIN</span>
+             </h1>
+             
+             <p className="text-base md:text-xl lg:text-2xl text-cream-muted font-light tracking-wide md:tracking-wider max-w-2xl mx-auto mb-12 md:mb-16 px-4">
+               Java/Spring • TypeScript • React • PostgreSQL • Docker • Flutter
+             </p>
+             
+          
+             <p className="text-sm md:text-base lg:text-lg text-cream-dark mb-16 md:mb-20 px-4 max-w-xl mx-auto">
+               Diplômé Concepteur Développeur d'Applications • RNCP 6 • AFPA Brest 2026
+             </p>
+             
+           </div>
     </section>
   );
 }
